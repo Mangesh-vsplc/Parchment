@@ -41,6 +41,7 @@ open class PagingTitleCell: PagingCell {
     titleLabel.text = viewModel.title
     titleLabel.font = viewModel.font
     titleLabel.textAlignment = .center
+    titleLabel.numberOfLines = 0
     
     if viewModel.selected {
       titleLabel.textColor = viewModel.selectedTextColor
